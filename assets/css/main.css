@@ -1940,9 +1940,17 @@ body.is-touch .main {
   background-position: top left, center center;
 }
 
-/* committees */
-#committees {
+/* organisers */
+#organisers {
   background: url("images/overlay.png"), url("../../images/two.jpg");
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center;
+}
+
+/* Register */
+#register {
+  background: url("images/overlay.png"), url("../../images/one.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -1980,5 +1988,10 @@ body.is-touch .main {
     padding: 1em 1em 2em 1em;
   }
 }
+
+ol.indent{
+  margin-left: 30px;
+}
+
 
 /*# sourceMappingURL=main.css.map */
